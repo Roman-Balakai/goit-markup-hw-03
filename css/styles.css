@@ -186,10 +186,20 @@ ol {
 img {
   display: block;
 }
+.container-new {
+  max-width: 1440px;
+  margin-left: 156px;
+  margin-right: 156px;
+}
 .container {
   max-width: 1440px;
   margin-left: 156px;
   margin-right: 156px;
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* header */
 .navigation {
