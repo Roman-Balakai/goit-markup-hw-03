@@ -215,11 +215,13 @@ img {
 }
 /* header */
 .navigation {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container-menu {
   display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  border-bottom: 1px solid #e7e9fc;
 }
 .menu {
   display: flex;
@@ -236,4 +238,7 @@ img {
   gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.nav-link {
+  padding: 24px 0;
 }
