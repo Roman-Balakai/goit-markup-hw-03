@@ -40,6 +40,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .portfolio {
   color: #2e2f42;
@@ -71,6 +72,8 @@ h3 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .portfolio-cover {
   color: #2e2f42;
@@ -96,6 +99,7 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .portfolio-text {
   font-size: 16px;
@@ -242,9 +246,10 @@ img {
 .nav-link {
   padding: 24px 0;
 }
-/* about company */
-.company {
-  padding: 188px 0;
+/* button */
+.business {
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .business-button {
   display: block;
@@ -266,14 +271,21 @@ img {
   width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+}
+/* team */
+.team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.list-order {
+  display: flex;
+  gap: 24px;
+}
+.order {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.person {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
