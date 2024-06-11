@@ -199,6 +199,13 @@ img {
   display: flex;
   align-items: center;
 }
+.container-menu {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .menu-list {
   display: flex;
   gap: 40px;
