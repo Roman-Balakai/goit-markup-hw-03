@@ -155,6 +155,7 @@ button:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-studio {
   color: #f4f4fd;
@@ -211,4 +212,27 @@ img {
   padding-right: 0;
   margin-left: 156px;
   margin-right: 156px;
+}
+/* header */
+.navigation {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu-list {
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.adress-list {
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
