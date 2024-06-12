@@ -239,10 +239,7 @@ img {
   gap: 24px;
 }
 .company-order-list {
-  width: calc((100% - 72px) / 4);
-}
-.company-order-list-new {
-  width: calc((100% - 72px) / 4);
+  width: calc ((100% - 72px) / 4);
 }
 .visually-hidden {
   position: absolute;
@@ -256,7 +253,10 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  display: none;
 }
+/* team */
+
 /* footer */
 .footer {
   padding-top: 100px;
