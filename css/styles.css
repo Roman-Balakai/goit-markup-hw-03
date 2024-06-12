@@ -13,6 +13,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
+  display: block;
 }
 .about-team {
   color: #2e2f42;
@@ -122,6 +123,7 @@ button:focus {
 }
 .business {
   background-color: #2e2f42;
+  display: block;
 }
 .footer {
   background-color: #2e2f42;
@@ -154,6 +156,8 @@ button:focus {
 }
 .contacts-adress {
   font-style: normal;
+  display: flex;
+  flex-wrap: nowrap;
 }
 .adress-link {
   font-size: 16px;
@@ -191,14 +195,20 @@ img {
   max-width: 1440px;
   margin-left: 156px;
   margin-right: 156px;
+  display: flex;
+  width: 1158px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 /* header */
 .navigation {
   border-bottom: 1px solid #e7e9fc;
 }
 .menu {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 .container-menu {
   display: flex;
@@ -212,6 +222,7 @@ img {
   gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
+  flex-direction: row-reverse;
 }
 .adress-list {
   display: flex;
