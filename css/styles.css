@@ -201,8 +201,18 @@ img {
 }
 .container {
   max-width: ;
-  padding-left: ;
-  padding-right: ;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
   margin-left: ;
   margin-right: ;
+  display: flex;
+}
+/* header */
+.header-title {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-menu {
+  display: flex;
 }
