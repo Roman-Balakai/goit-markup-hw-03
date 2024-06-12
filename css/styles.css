@@ -41,19 +41,14 @@ h2 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-h3 {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
+
 .about {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .list-team {
   color: #2e2f42;
@@ -234,6 +229,18 @@ img {
   display: block;
 }
 
+/* about company */
+.about-company {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.company-order {
+  display: flex;
+  gap: 24px;
+}
+.company-order-list {
+  width: calc((100% - 72px) / 4);
+}
 /* footer */
 .footer {
   padding-top: 100px;
