@@ -155,6 +155,7 @@ button:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-studio {
   color: #f4f4fd;
@@ -170,6 +171,7 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .contacts-adress {
   font-style: normal;
@@ -208,6 +210,7 @@ img {
   margin-left: ;
   margin-right: ;
   display: flex;
+  align-items: center;
 }
 /* header */
 .header-title {
@@ -215,4 +218,12 @@ img {
 }
 .header-menu {
   display: flex;
+}
+.menu-order {
+  display: flex;
+  gap: 40px;
+}
+.adress-order {
+  display: flex;
+  gap: 40px;
 }
