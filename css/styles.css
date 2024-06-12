@@ -314,3 +314,6 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
+a .container {
+  display: inline-block;
+}
