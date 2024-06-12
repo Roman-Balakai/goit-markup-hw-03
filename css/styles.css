@@ -202,7 +202,7 @@ img {
   display: block;
 }
 .container {
-  max-width: ;
+  max-width: 1440px;
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -210,14 +210,16 @@ img {
   margin-left: ;
   margin-right: ;
   display: flex;
-  align-items: center;
 }
 /* header */
 .header-title {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-menu {
   display: flex;
+  align-items: center;
 }
 .menu-order {
   display: flex;
