@@ -229,3 +229,14 @@ img {
   display: flex;
   gap: 40px;
 }
+/* busines */
+.business {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.business-button {
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
