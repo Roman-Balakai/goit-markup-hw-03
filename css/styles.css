@@ -196,6 +196,8 @@ img {
   margin-left: ;
   margin-right: ;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 /* header */
 .header-title {
