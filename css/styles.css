@@ -201,7 +201,7 @@ img {
   margin: 0 auto;
   margin-left: ;
   margin-right: ;
-  display: flex;
+  display: inline-block;
 }
 /* header */
 .header-title {
@@ -248,8 +248,5 @@ img {
   color: #4d5ae5;
   margin-right: 76px;
   margin-bottom: 16px;
-  display: inline-block;
-}
-a {
   display: inline-block;
 }
