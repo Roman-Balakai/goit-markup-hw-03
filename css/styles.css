@@ -48,6 +48,8 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .portfolio-cover {
   color: #2e2f42;
@@ -73,6 +75,7 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .portfolio-text {
   font-size: 16px;
@@ -260,7 +263,10 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-
+.list-conteiner {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 /* footer */
 .footer {
   padding-top: 100px;
