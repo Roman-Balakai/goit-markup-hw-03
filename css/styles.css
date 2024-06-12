@@ -250,3 +250,6 @@ img {
   margin-bottom: 16px;
   display: inline-block;
 }
+a {
+  display: inline-block;
+}
