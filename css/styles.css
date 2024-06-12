@@ -194,11 +194,10 @@ img {
 .container {
   max-width: 1440px;
   width: 1158px;
+  display: flex;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 /* header */
 .navigation {
