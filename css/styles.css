@@ -241,6 +241,9 @@ img {
 .company-order-list {
   width: calc((100% - 72px) / 4);
 }
+.company-order-list-new {
+  width: calc((100% - 72px) / 4);
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
