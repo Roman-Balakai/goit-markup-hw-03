@@ -18,25 +18,27 @@
 </head>
 
 <body>
-    <header class="header-main">
-        <div class="container header-container">
-            <nav class="header-navigation">
+    <header class="navigation">
+        <div class="container-menu">
+
+            <nav class="menu">
                 <a href="./index.html" class="logo">
                     Web<span class="logo-studio-head">Studio</span>
                 </a>
-                <ul class="header-order-list">
-                    <li class="header-list"><a href="./index.html" class="nav-link">Studio</a></li>
-                    <li class="header-list"><a href="" class="nav-link">Portfolio</a></li>
-                    <li class="header-list"><a href="" class="nav-link">Contacts</a></li>
+                <ul class="menu-list">
+                    <li><a href="./index.html" class="nav-link">Studio</a></li>
+                    <li><a href="" class="nav-link">Portfolio</a></li>
+                    <li><a href="" class="nav-link">Contacts</a></li>
                 </ul>
             </nav>
             <!-- contacts -->
             <address class="contacts-adress">
-                <ul class="adress-order-list">
+                <ul class="adress-list">
                     <li><a href="mailto:info@devstudio.com" class="adress-link">info@devstudio.com</a></li>
                     <li> <a href="tel:+110001111111" class="adress-link">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+
         </div>
     </header>
 
@@ -49,16 +51,16 @@
             </div>
         </section>
         <!-- About company -->
-        <section class="about-company">
+        <section class="company">
             <div class="container">
                 <h2 class="visually-hidden">About company</h2>
-                <ul class="company-order-list">
-                    <li class="company-list">
+                <ul class="order-company">
+                    <li class="list-company">
                         <h3 class="about">Strategy</h3>
                         <p class="about-text">Our goal is to identify the business
                             problem to walk away with the perfect and creative solution.</p>
                     </li>
-                    <li class="company-list">
+                    <li class="list-company">
                         <h3 class="about">Punctuality</h3>
                         <p class="about-text">Bring the key message to the brand's audience for the best price within
                             the
@@ -66,14 +68,14 @@
                             time.
                         </p>
                     </li>
-                    <li class="company-list">
+                    <li class="list-company">
                         <h3 class="about">Diligence</h3>
                         <p class="about-text">Research and confirm brands that present the strongest digital growth
                             opportunities and minimize
                             risk.
                         </p>
                     </li>
-                    <li class="company-list">
+                    <li class="list-company">
                         <h3 class="about">Technologies</h3>
                         <p class="about-text">Design practice focused on digital experiences. We bring forth a deep
                             passion
@@ -88,59 +90,84 @@
         <section class="team">
             <div class="container">
                 <h2 class="about-team">Our Team</h2>
-                <ul>
+                <ul class="list-order">
                     <li class="order">
                         <img src="./images/markguerrero.jpg" alt="guerrero" width="264" height="260">
-                        <h3 class="list-team">Mark Guerrero</h3>
-                        <p class="team-text">Product Designer</p>
+                        <div class="person">
+                            <h3 class="list-team">Mark Guerrero</h3>
+                            <p class="team-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="order">
                         <img src="./images/tomford.jpg" alt="ford" width="264" height="260">
-                        <h3 class="list-team">Tom Ford</h3>
-                        <p class="team-text">Frontend Developer</p>
+                        <div class="person">
+                            <h3 class="list-team">Tom Ford</h3>
+                            <p class="team-text">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="order">
                         <img src="./images/camilagarcia.jpg" alt="garcia" width="264" height="260">
-                        <h3 class="list-team">Camila Garcia</h3>
-                        <p class="team-text">Marketing</p>
+                        <div class="person">
+                            <h3 class="list-team">Camila Garcia</h3>
+                            <p class="team-text">Marketing</p>
+                        </div>
                     </li>
                     <li class="order">
                         <img src="./images/danielwilson.jpg" alt="wilson" width="264" height="260">
-                        <h3 class="list-team">Daniel Wilson</h3>
-                        <p class="team-text">UI Designer</p>
+                        <div class="person">
+                            <h3 class="list-team">Daniel Wilson</h3>
+                            <p class="team-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
         <!-- Portfolio -->
-        <section>
+        <section class="portfolio-header">
             <div class="container">
                 <h2 class="portfolio">Our Portfolio</h2>
-                <ul>
-                    <li><img src="./images/banking-app.jpg" alt="banking-app" width="360" height="300">
-                        <h3 class="portfolio-cover">Banking App</h3>
-                        <p class="portfolio-text">App</p>
-                    </li>
-                    <li><img src="./images/cashless-payment.jpg" alt="cashless-payment" width="360" height="300">
-                        <h3 class="portfolio-cover">Cashless Payment</h3>
-                        <p class="portfolio-text">Marketing</p>
-                    </li>
-                    <li><img src="./images/meditation-app.jpg" alt="meditation-app" width="360" height="300">
-                        <h3 class="portfolio-cover">Meditation App</h3>
-                        <p class="portfolio-text">App</p>
-                    </li>
-                    <li><img src="./images/taxi-service.jpg" alt="taxi-service" width="360" height="300">
-                        <h3 class="portfolio-cover">Taxi Service</h3>
-                        <p class="portfolio-text">Marketing</p>
-                    </li>
-                    <li><img src="./images/screen-illustrations.jpg" alt="screen-illustrations" width="360"
+                <ul class="portfolio-list">
+                    <li class="portfolio-list-order"><img src="./images/banking-app.jpg" alt="banking-app" width="360"
                             height="300">
-                        <h3 class="portfolio-cover">Screen Illustrations</h3>
-                        <p class="portfolio-text">Design</p>
+                        <div class="portfolio-container">
+                            <h3 class="portfolio-cover">Banking App</h3>
+                            <p class="portfolio-text">App</p>
+                        </div>
                     </li>
-                    <li><img src="./images/online-courses.jpg" alt="online-courses" width="360" height="300">
-                        <h3 class="portfolio-cover">Online Courses</h3>
-                        <p class="portfolio-text">Marketing</p>
+                    <li class="portfolio-list-order"><img src="./images/cashless-payment.jpg" alt="cashless-payment"
+                            width="360" height="300">
+                        <div class="portfolio-container">
+                            <h3 class="portfolio-cover">Cashless Payment</h3>
+                            <p class="portfolio-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-list-order"><img src="./images/meditation-app.jpg" alt="meditation-app"
+                            width="360" height="300">
+                        <div class="portfolio-container">
+                            <h3 class="portfolio-cover">Meditation App</h3>
+                            <p class="portfolio-text">App</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-list-order"><img src="./images/taxi-service.jpg" alt="taxi-service" width="360"
+                            height="300">
+                        <div class="portfolio-container">
+                            <h3 class="portfolio-cover">Taxi Service</h3>
+                            <p class="portfolio-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-list-order"><img src="./images/screen-illustrations.jpg"
+                            alt="screen-illustrations" width="360" height="300">
+                        <div class="portfolio-container">
+                            <h3 class="portfolio-cover">Screen Illustrations</h3>
+                            <p class="portfolio-text">Design</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-list-order"><img src="./images/online-courses.jpg" alt="online-courses"
+                            width="360" height="300">
+                        <div class="portfolio-container">
+                            <h3 class="portfolio-cover">Online Courses</h3>
+                            <p class="portfolio-text">Marketing</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -149,7 +176,7 @@
 
     <footer class="footer">
         <div class="container">
-            <a href="./index.html" class="logo">
+            <a href="./index.html" class="logo-footer">
                 Web<span class="logo-studio">Studio</span>
             </a>
             <p class="footer-text">
