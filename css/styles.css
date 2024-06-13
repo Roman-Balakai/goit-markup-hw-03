@@ -258,6 +258,7 @@ img {
 .company-order-list {
   display: flex;
   gap: 24px;
+  width: 1158px;
 }
 .company-list {
   width: calc((100% - 72px) / 4);
