@@ -42,19 +42,13 @@ h2 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-h3 {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
 .about {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .list-team {
   color: #2e2f42;
@@ -243,6 +237,10 @@ img {
   border-radius: 4px;
 }
 /* company */
+.about-company {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -256,4 +254,11 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
   display: none;
+}
+.company-order-list {
+  display: flex;
+  gap: 24px;
+}
+.company-list {
+  width: calc((100% - 72px) / 4);
 }
